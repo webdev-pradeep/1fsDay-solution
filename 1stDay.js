@@ -83,11 +83,33 @@
 
 // Check for Prime Number
 
-function printPrimeNumber(num) {
-  if (num % 2 == 1) {
-    console.log("prime Number");
-  } else if (num % 2 == 0) {
-    console.log("not prime Number");
-  }
-}
-printPrimeNumber(25);
+// function printPrimeNumber(num) {
+//   if (num % 2 == 1) {
+//     console.log("prime Number");
+//   } else if (num % 2 == 0) {
+//     console.log("not prime Number");
+//   }
+// }
+// printPrimeNumber(25);
+
+// Question Number_10
+
+// . Find Duplicate Values in Array
+// function findDuplicates(array) {
+//   const duplicates = [];
+//   const seen = {};
+
+//   for (const item of array) {
+//     if (seen[item] === undefined) {
+//       seen[item] = 1;
+//     } else if (seen[item] === 1) {
+//       duplicates.push(item);
+//       seen[item]++;
+//     }
+//   }
+
+//   return duplicates;
+// }
+
+// const numbers = [1, 2, 3, 4, 2, 5, 6, 7, 5, 8, 9, 1];
+// console.log(findDuplicates(numbers));
