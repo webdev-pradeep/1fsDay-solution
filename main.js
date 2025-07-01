@@ -1,5 +1,5 @@
 // let num = 10;
-// for (let i = 1; i <= 10; i++) {
+// for (let i = 1; i <= num; i++) {
 //   console.log(i * 3);
 // }
 
@@ -132,7 +132,7 @@ const colors = ["red", "yellow", "black"];
 // console.log(animals.lastIndexOf("Tiger"));
 
 // const numbers = [1, 2, 3, 4, 5, 6];
-// console.log(array.map((x) => x * 2));
+// console.log(numbers.map((x) => x * 2));
 
 // const result = numbers.map((element, index, array) => {
 //   //   console.log(`element:${element}`);
@@ -183,6 +183,21 @@ const colors = ["red", "yellow", "black"];
 // );
 // console.log(num);
 
-let array = [1, 2, 3, 4, 5, 6, 7, 8];
-const numValue = array.map((element, indexed, array) => element + indexed);
-console.log(numValue);
+// let array = [1, 2, 3, 4, 5, 6, 7, 8];
+// const numValue = array.map((element, indexed, array) => element + indexed);
+// console.log(numValue);
+
+// const clickBtn = document.getElementById("clickBtn");
+
+// clickBtn.addEventListener("click", () => {
+//   const head = document.createElement("h1");
+//   head.innerText = "click me";
+//   document.body.appendChild(head);
+// });
+
+// const array = [2, 3, 4, 5, 6, 77, 3, 45, 3, 4, 4, 5, 6];
+
+// const newArray = array.filter((item) => {
+//   return item == 4;
+// });
+// console.log(newArray);
